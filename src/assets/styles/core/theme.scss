@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
+
+:root {
+  /* Colors */
+  --light:        #efefef;
+  --dark:         #cccccc;
+  --darker:       #666666;
+
+  --black:        #111111;
+
+  --primary:      #9051FF;
+  --primaryMed:   #562E9B;
+  --primaryDark:  #170731;
+  --secondary:    #00B0BC;
+  --secondaryMed: #026970;
+  --secondaryDark:#004348;
+  --tertiary:     #F1B14C;
+  --quarternary:  #D87B55;
+
+  --action:       #26A6F7;
+  --actionLight:  #C7E7FF;
+  --actionDark:   #146395;
+
+  --pink:         #E6B0C4;
+  --neutral:      #F6F0E7;
+
+  /* virtual columns */
+  --asColumns: .5rem 6rem;
+
+  /* type */
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+h1 {
+  font-size: 3.05rem;
+  line-height: 3.15rem;
+  font-weight: 800;  
+}
+h2 {
+  font-size: 2.44rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.95rem;
+  line-height: 2.15rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.56rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+}
+h5 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+p {
+  font-size: 1rem;
+  line-height: 135%;
+  margin-bottom: 1rem;
+}
+small {
+  font-size: 0.8rem;
+}
+x-small {
+  font-size: 0.64rem;
+}
+h6 {
+  text-transform: uppercase;
+}

@@ -1,5 +1,21 @@
-.wrapper {
+.marquee {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  background: url('../../images/marquee-feature-l.png') no-repeat center center;
+  background-size: cover;
+  height: 512px;
+}
+
+.content {
+  align-items: flex-start;
+  display: flex;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 8rem);
+  justify-content: center;
   padding: 4rem;
-  background-color: #efefef;
-  border: 1px solid red;
+  gap: 1rem;
 }

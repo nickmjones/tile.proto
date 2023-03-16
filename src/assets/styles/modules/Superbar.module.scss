@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: .5rem;
+  gap: .5rem;
+  font-size: small;
+  height: 1rem;
+
+  .item {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--darker);
+  }
+}

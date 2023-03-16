@@ -1,0 +1,29 @@
+.buttonBranded {
+  background-color: var(--primary);
+  color: #fff;
+  font-size: 1.15rem;
+  border-radius: 100px;
+  padding: .5rem 1rem;
+  display: inline-block;
+  transition: all 0.10s ease-in-out;
+  cursor: default;
+
+  &:hover {
+    background-color: var(--primaryMed);
+  }
+}
+
+.buttonDefault {
+  background-color: var(--black);
+  color: #fff;
+  font-size: .8rem;
+  border-radius: 100px;
+  padding: .5rem 1rem;
+  display: inline-block;
+  transition: all 0.10s ease-in-out;
+  cursor: default;
+
+  &:hover {
+    background-color: var(--darker);
+  }
+}
